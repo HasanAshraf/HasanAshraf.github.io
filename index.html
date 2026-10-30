@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hasan Ashraf | Robotics PhD, University of Alberta</title>
+  <meta name="author" content="Hasan Ashraf">
+  <meta name="description" content="Hasan Ashraf is a PhD student in Mechanical Engineering at the University of Alberta (ADaMS Lab) working on constraint-aware and multi-robot motion planning for robotic additive manufacturing.">
+  <link rel="canonical" href="https://hasanashraf.github.io/">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Hasan Ashraf">
+  <meta property="og:description" content="PhD student in Mechanical Engineering at the University of Alberta. Motion planning for robots that build metal parts.">
+  <meta property="og:url" content="https://hasanashraf.github.io/">
+  <meta property="og:image" content="https://hasanashraf.github.io/images/profile.jpg">
+
+  <script>
+    // Set the theme before first paint so the page doesn't flash.
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+
+  <link rel="preload" href="assets/fonts/Archivo-VF.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Hasan Ashraf",
+    "url": "https://hasanashraf.github.io/",
+    "image": "https://hasanashraf.github.io/images/profile.jpg",
+    "email": "mailto:hashraf3@ualberta.ca",
+    "jobTitle": "PhD Student, Mechanical Engineering",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "University of Alberta" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "National University of Sciences and Technology (NUST)" },
+      { "@type": "CollegeOrUniversity", "name": "Kennesaw State University" }
+    ],
+    "knowsAbout": ["Robotics", "Motion planning", "Multi-robot systems", "Trajectory optimization", "Reinforcement learning", "Wire arc additive manufacturing"],
+    "sameAs": [
+      "https://www.linkedin.com/in/hasan--ashraf/",
+      "https://scholar.google.ca/citations?user=QdPQLx8AAAAJ",
+      "https://github.com/HasanAshraf"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="page">
+
+    <!-- ============ SIDEBAR ============ -->
+    <header class="sidebar">
+      <h1 class="name"><a href="#about">Hasan<br>Ashraf</a></h1>
+      <p class="role">
+        PhD student, Mechanical Engineering<br>
+        University of Alberta, Edmonton
+      </p>
+
+      <img class="portrait" src="images/profile.jpg" alt="Hasan Ashraf at Lake Louise, Alberta" width="640" height="800">
+
+      <ul class="profiles">
+        <li><a href="mailto:hashraf3@ualberta.ca">hashraf3@ualberta.ca</a></li>
+        <li><a href="files/Hasan_Ashraf_CV.pdf">CV (PDF)</a></li>
+        <li><a href="https://scholar.google.ca/citations?user=QdPQLx8AAAAJ&amp;hl=en" rel="me">Google Scholar</a></li>
+        <li><a href="https://www.linkedin.com/in/hasan--ashraf/" rel="me">LinkedIn</a></li>
+        <li><a href="https://github.com/HasanAshraf" rel="me">GitHub</a></li>
+      </ul>
+
+      <nav class="toc" aria-label="Sections">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-pressed="false">Dark mode</button>
+    </header>
+
+    <!-- ============ MAIN ============ -->
+    <main id="main" class="content">
+
+      <!-- About -->
+      <section id="about" aria-labelledby="about-h">
+        <h2 id="about-h" class="visually-hidden">About</h2>
+        <p class="lede">I work on motion planning for industrial robots that build, weld and finish metal parts.</p>
+        <p>
+          I'm a PhD student in Mechanical Engineering at the University of Alberta, advised by
+          Dr.&nbsp;Ahmed Jawad Qureshi in the Additive Design and Manufacturing Systems (ADaMS) Lab.
+          My research is on constraint-aware motion and trajectory planning, collision avoidance,
+          and coordinating several robots that share one workspace and one process.
+        </p>
+        <p>
+          Most of that work happens on a 14-DOF hybrid manufacturing cell: two 6-DOF industrial robots
+          sharing a 2-DOF tilt&ndash;rotate positioner, used for wire arc additive manufacturing (WAAM),
+          welding, grinding and forging. I'm also a Mitacs Research Graduate Intern with Elementiam,
+          where I build optimization-based welding trajectories and a perception pipeline for
+          real-time collision avoidance.
+        </p>
+        <p>
+          Before Alberta, I earned a B.E. in Mechatronics Engineering from NUST in Pakistan and spent
+          a semester at Kennesaw State University as a Global UGRAD exchange scholar.
+        </p>
+
+        <h3 class="subhead">Research interests</h3>
+        <ul class="interests">
+          <li>Multi-robot and dual-arm motion planning</li>
+          <li>Spatio-temporal and process-aware constraints</li>
+          <li>Trajectory optimization</li>
+          <li>Perception for collision avoidance</li>
+          <li>Reinforcement learning for adaptive planning</li>
+          <li>Robotic wire arc additive manufacturing</li>
+        </ul>
+      </section>
+
+      <!-- News -->
+      <section id="news" aria-labelledby="news-h">
+        <h2 id="news-h">News</h2>
+        <ol class="dated">
+          <li>
+            <time datetime="2026-06">Jun 2026</time>
+            <div>Presented our print-forging work at HI-AM 2026 in Banff, after attending CIRP CAT 2026 in Edmonton the week before.</div>
+          </li>
+          <li>
+            <time datetime="2025-09">Sep 2025</time>
+            <div>Started a Mitacs research internship with Elementiam on constraint-aware welding trajectories and perception for collision avoidance.</div>
+          </li>
+          <li>
+            <time datetime="2025-05">May 2025</time>
+            <div>Presented our VANCAR-O deposition study at the CSME-CFDSC-CSR 2025 Congress in Montreal.</div>
+          </li>
+          <li>
+            <time datetime="2025-01">Jan 2025</time>
+            <div>Started my PhD at the University of Alberta with a Graduate Recruitment Scholarship.</div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Publications -->
+      <section id="publications" aria-labelledby="pubs-h">
+        <h2 id="pubs-h">Publications</h2>
+        <ol class="dated pubs">
+
+          <li class="pub">
+            <time datetime="2026">2026</time>
+            <div>
+              <p class="pub-title">Print-forging: A Novel Hybrid Route for High-Performance WAAM</p>
+              <p class="pub-authors"><strong>H. Ashraf</strong>, M. Irfan, M. Tauqir, A. Radnia, M. Keshmiri, M. Singh, A. J. Qureshi</p>
+              <p class="pub-venue">9th Holistic Innovation in Additive Manufacturing Conference (HI-AM 2026), Banff, AB</p>
+              <p class="pub-status">Under review. Presented June 2026.</p>
+            </div>
+          </li>
+
+          <li class="pub">
+            <time datetime="2026">2026</time>
+            <div>
+              <p class="pub-title">Smart Prosthetics: Vision, Depth Estimation, and Haptics</p>
+              <p class="pub-authors"><strong>H. Ashraf</strong>, A. J. Naqvi, M. U. Akram, S. G. Khawaja, U. S. Khan</p>
+              <p class="pub-venue">Internet of Things, Smart Spaces, and Next Generation Networks and Systems (ruSMART / NEW2AN 2025), Lecture Notes in Computer Science, vol. 16462, Springer, pp. 242&ndash;256</p>
+              <p class="pub-links">
+                <a href="https://doi.org/10.1007/978-3-032-19981-2_20">DOI</a>
+                <button type="button" class="bib-toggle" aria-expanded="false" aria-controls="bib-smart">BibTeX</button>
+              </p>
+              <div class="bib" id="bib-smart" hidden>
+<pre><code>@inproceedings{ashraf2026smart,
+  title     = {Smart Prosthetics: Vision, Depth Estimation, and Haptics},
+  author    = {Ashraf, Hasan and Naqvi, A. J. and Akram, M. U. and
+               Khawaja, S. G. and Khan, U. S.},
+  booktitle = {Internet of Things, Smart Spaces, and Next Generation
+               Networks and Systems (ruSMART NEW2AN 2025)},
+  editor    = {Koucheryavy, Y. and Kumar, N. and Muthanna, A. and Sharma, S.},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {16462},
+  pages     = {242--256},
+  publisher = {Springer, Cham},
+  year      = {2026},
+  doi       = {10.1007/978-3-032-19981-2_20}
+}</code></pre>
+                <button type="button" class="bib-copy">Copy BibTeX</button>
+              </div>
+            </div>
+          </li>
+
+          <li class="pub">
+            <time datetime="2025">2025</time>
+            <div>
+              <p class="pub-title">Optimizing Process Parameters for VANCAR-O Deposition in Wire Arc Additive Manufacturing</p>
+              <p class="pub-authors"><strong>H. Ashraf</strong>, S. Singh, A. J. Qureshi</p>
+              <p class="pub-venue">CSME-CFDSC-CSR 2025 International Congress, Montreal, QC (Progress in Canadian Mechanical Engineering, vol. 8)</p>
+              <p class="pub-summary">Tunes travel speed, current and wire feed rate with response surface methodology to deposit VANCAR-O, a tubular wire carrying vanadium and tungsten carbide, by robotic GMAW-based WAAM, for more uniform beads and cleaner layer stacking.</p>
+              <p class="pub-links">
+                <a href="https://doi.org/10.82417/t4hq-k109">DOI</a>
+                <button type="button" class="bib-toggle" aria-expanded="false" aria-controls="bib-vancaro">BibTeX</button>
+              </p>
+              <div class="bib" id="bib-vancaro" hidden>
+<pre><code>@inproceedings{ashraf2025vancaro,
+  title     = {Optimizing Process Parameters for {VANCAR-O} Deposition
+               in Wire Arc Additive Manufacturing},
+  author    = {Ashraf, Hasan and Singh, Shalini and Qureshi, Ahmed Jawad},
+  booktitle = {CSME-CFDSC-CSR 2025 International Congress},
+  series    = {Progress in Canadian Mechanical Engineering},
+  volume    = {8},
+  address   = {Montreal, QC, Canada},
+  year      = {2025},
+  doi       = {10.82417/t4hq-k109}
+}</code></pre>
+                <button type="button" class="bib-copy">Copy BibTeX</button>
+              </div>
+            </div>
+          </li>
+
+        </ol>
+        <p class="aside">The full, current list is on <a href="https://scholar.google.ca/citations?user=QdPQLx8AAAAJ&amp;hl=en">Google Scholar</a>.</p>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" aria-labelledby="exp-h">
+        <h2 id="exp-h">Experience</h2>
+        <ol class="dated">
+          <li>
+            <time>Sep 2025 &ndash;<br>present</time>
+            <div>
+              <p class="item-title">Mitacs Research Graduate Intern</p>
+              <p class="item-org">Elementiam and ADaMS Lab, University of Alberta</p>
+              <ul class="points">
+                <li>Optimization-based trajectories for 6-DOF manipulators on SE(3) that hold torch-angle and standoff-distance constraints during robotic welding.</li>
+                <li>A perception pipeline that turns noisy 3D point clouds into Euclidean signed distance fields (ESDFs) for real-time collision avoidance in changing environments.</li>
+                <li>A comparison of CHOMP and TrajOpt for hybrid manufacturing, focused on singularity avoidance and joint-space continuity.</li>
+                <li>Next-best-view planning for scanning unknown workpieces with fewer occlusions.</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <time>Jan 2025 &ndash;<br>present</time>
+            <div>
+              <p class="item-title">PhD Researcher</p>
+              <p class="item-org">ADaMS Lab, Department of Mechanical Engineering, University of Alberta</p>
+              <ul class="points">
+                <li>Constraint-aware motion and trajectory planning for collaborative multi-robot systems, covering collision avoidance, temporal constraints and changing workspaces.</li>
+                <li>Sampling-based planning, trajectory optimization and deep reinforcement learning for adaptive, online motion planning under process constraints.</li>
+                <li>Wire arc additive manufacturing research, including VANCAR-O deposition and process parameter optimization.</li>
+                <li>Algorithms built and tested in ROS 2, NVIDIA Isaac Sim and Isaac Lab, with GPU-accelerated simulation and reinforcement learning.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+
+        <h3 class="subhead">Teaching</h3>
+        <div class="undated">
+          <p class="item-title">Teaching Assistant, MECE 788: Manufacturing Robotics and Automation</p>
+          <p class="item-org">University of Alberta</p>
+          <p>Prepared the course's lecture slides on motion planning in manufacturing.</p>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" aria-labelledby="proj-h">
+        <h2 id="proj-h">Projects</h2>
+        <ol class="dated">
+          <li>
+            <time datetime="2026">2026</time>
+            <div>
+              <p class="item-title">Articulated4D: generative modeling of articulated assets</p>
+              <p>Used state-flow matching to synthesize 4D temporal sequences from static 2D images, with a latent-diffusion training pipeline on NVIDIA H100 clusters focused on joint-limit consistency in the generated meshes.</p>
+            </div>
+          </li>
+          <li>
+            <time datetime="2025">2025</time>
+            <div>
+              <p class="item-title">Vehicle state estimation with GPS&ndash;IMU sensor fusion</p>
+              <p>A Kalman filter for vehicle localization with a &chi;&sup2; innovation gate to reject GPS interference, reaching 1.9&nbsp;m RMSE on the KITTI dataset.</p>
+            </div>
+          </li>
+          <li>
+            <time datetime="2025">2025</time>
+            <div>
+              <p class="item-title">Anomaly detection via reverse distillation with balanced few-shot mask supervision</p>
+              <p>Extended RD4AD with pixel-wise few-shot supervision and a mask-aligned feature loss to find medical parasites under severe foreground&ndash;background imbalance. A push&ndash;pull feature learning strategy improved anomaly localization by up to 25% pixel-AUPRC over few-shot baselines.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Education -->
+      <section id="education" aria-labelledby="edu-h">
+        <h2 id="edu-h">Education</h2>
+        <ol class="dated">
+          <li>
+            <time>Jan 2025 &ndash;<br>present</time>
+            <div>
+              <p class="item-title">PhD, Mechanical Engineering (robotics focus)</p>
+              <p class="item-org">University of Alberta, Edmonton, Canada</p>
+              <p>Advisor: Dr.&nbsp;Ahmed Jawad Qureshi</p>
+            </div>
+          </li>
+          <li>
+            <time>Aug &ndash; Dec<br>2022</time>
+            <div>
+              <p class="item-title">Global UGRAD Exchange Scholar</p>
+              <p class="item-org">Kennesaw State University, Georgia, USA</p>
+              <p>GPA 4.0/4.0</p>
+            </div>
+          </li>
+          <li>
+            <time>Sep 2019 &ndash;<br>Sep 2023</time>
+            <div>
+              <p class="item-title">B.E., Mechatronics Engineering</p>
+              <p class="item-org">National University of Sciences and Technology (NUST), Pakistan</p>
+              <p>GPA 3.94/4.0</p>
+            </div>
+          </li>
+        </ol>
+
+        <h3 class="subhead">Scholarships and awards</h3>
+        <ol class="dated compact">
+          <li><time datetime="2025">2025</time><div>Graduate Recruitment Scholarship, University of Alberta</div></li>
+          <li><time datetime="2022">2022</time><div>Global UGRAD Fellowship, U.S. Department of State</div></li>
+          <li><time>2019 &ndash; 2023</time><div>NUST High Achiever Award, top 1% of the engineering cohort</div></li>
+        </ol>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" aria-labelledby="skills-h">
+        <h2 id="skills-h">Skills</h2>
+        <dl class="skills">
+          <dt>Robotics and motion planning</dt>
+          <dd>RRT, RRT*, PRM, PRM*, OMPL, trajectory optimization, model predictive control, manipulator kinematics and dynamics, collision detection and avoidance, multi-robot motion planning</dd>
+          <dt>Reinforcement learning and AI</dt>
+          <dd>Deep reinforcement learning, MDPs, policy optimization, imitation learning, generative models, computer vision, sensor fusion</dd>
+          <dt>Simulation and frameworks</dt>
+          <dd>ROS / ROS 2, NVIDIA Isaac Sim, NVIDIA Isaac Lab, Gazebo, PyBullet, RViz, RoboDK, MoveIt / MoveIt 2</dd>
+          <dt>Programming</dt>
+          <dd>Python, C++, CUDA, Linux, Git</dd>
+          <dt>Libraries and tools</dt>
+          <dd>PyTorch, NumPy, SciPy, OpenCV, Open3D, SKRL, URDF / USD, SolidWorks</dd>
+        </dl>
+      </section>
+
+      <footer class="colophon">
+        <p>Last updated October 2026.</p>
+        <p>Layout adapted from <a href="https://github.com/alshedivat/al-folio">al-folio</a> and <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's website</a>. Set in Archivo.</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
